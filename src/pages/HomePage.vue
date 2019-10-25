@@ -1,7 +1,6 @@
 <template>
    <div class="container" v-if="user">
     <BookList
-        
         :user-fav-books="userFavBooks"
         :user="user"
         :search-input="searchInput"
